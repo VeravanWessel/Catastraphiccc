@@ -31,9 +31,9 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collider2D Collision2D)
     {
-        if (other.CompareTag("Box")) // Controleert of de vijand een object met de tag "Box" raakt
+        if (Collision2D.CompareTag("Box")) // Controleert of de vijand een object met de tag "Box" raakt
         {
             doodgaan = true;
             Debug.Log("Enemy geraakt door Box! Doodgaan is nu: " + doodgaan);
