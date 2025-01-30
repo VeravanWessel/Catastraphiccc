@@ -106,7 +106,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: d06dbe90c1f438a40bfbd4df8fe6f7ce, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -472,6 +472,7 @@ GameObject:
   - component: {fileID: 1148169669406436462}
   - component: {fileID: 3519895868415455336}
   - component: {fileID: 4761074771778355998}
+  - component: {fileID: 8213919465704040386}
   m_Layer: 0
   m_Name: Playerspiegel
   m_TagString: Untagged
@@ -488,8 +489,8 @@ Transform:
   m_GameObject: {fileID: 3060714574056463380}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.04, y: 0.16, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.54038}
+  m_LocalPosition: {x: -0.04, y: 0.05, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.9224827}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8185163749695733553}
@@ -589,6 +590,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!210 &8213919465704040386
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3060714574056463380}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &3107467047598740781
 GameObject:
   m_ObjectHideFlags: 0
@@ -1108,6 +1121,7 @@ MonoBehaviour:
     m_Bits: 8
   groundCheck: {fileID: 7932513176330331307}
   GameobjectCat: {fileID: 3060714574056463380}
+  animator: {fileID: 3519895868415455336}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
