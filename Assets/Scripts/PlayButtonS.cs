@@ -6,6 +6,7 @@ public class PlayButtonS : MonoBehaviour
 {
     public GameObject menu;
     public GameObject video;
+    public GameObject eyes;
     public StartTimedEvent timerscript;
 
     void Update()
@@ -14,6 +15,7 @@ public class PlayButtonS : MonoBehaviour
         {
             video.SetActive(true);
             menu.SetActive(false);
+            eyes.SetActive(false);
             timerscript.StartTimer();
         } 
     }
