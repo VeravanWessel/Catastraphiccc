@@ -311,7 +311,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -686, y: -110}
+  m_AnchoredPosition: {x: -686, y: -53}
   m_SizeDelta: {x: 159, y: 63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &157596308
@@ -357,7 +357,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 157596309}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 157596311}
+        m_TargetAssemblyTypeName: PlayButtonS, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &157596309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -437,13 +449,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284453344}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.025, y: 0.1, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.38882253, w: 0.92131275}
+  m_LocalPosition: {x: 0.032, y: 0.04, z: 0}
   m_LocalScale: {x: 0.55, y: 0.55, z: 0.5239137}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1773039580}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -45.763}
 --- !u!212 &284453346
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -715,13 +727,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 643125448}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.018, y: 0.10000007, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.4182161, w: 0.90834755}
+  m_LocalPosition: {x: -0.006, y: 0.034, z: 0}
   m_LocalScale: {x: 0.55, y: 0.55, z: 0.5239137}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2110603541}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -49.444}
 --- !u!212 &643125450
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1596,7 +1608,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1624504056}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1624504058}
+        m_TargetAssemblyTypeName: QuitButtonS, Assembly-CSharp
+        m_MethodName: Quit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1624504056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1992,8 +2016,8 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 2112052015}
-  - {fileID: 612667338}
   - {fileID: 3158655}
   - {fileID: 1786590478}
   - {fileID: 728482340}
   - {fileID: 412058368}
+  - {fileID: 612667338}
