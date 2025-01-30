@@ -111,4 +111,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fullheart: {fileID: 21300000, guid: 5961412b30823f44a8f0f1bdb7653336, type: 3}
   halfheart: {fileID: 21300000, guid: 44f61486760115e4f85d420a2de0362e, type: 3}
-  emptyheart: {fileID: 21300000, guid: 26a7f56c53649e0468927ccef748d096, type: 3}
+  emptyheart: {fileID: 21300000, guid: 4de5afac121161241ab731d8abef4fb1, type: 3}
