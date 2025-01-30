@@ -16,7 +16,7 @@ PlayerSettings:
   productName: Catastrophe
   defaultCursor: {fileID: 2800000, guid: b2b294cfaf24c8148970b0003a75d13f, type: 3}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
+  m_SplashScreenBackgroundColor: {r: 1, g: 0.7254902, b: 0.09411765, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
