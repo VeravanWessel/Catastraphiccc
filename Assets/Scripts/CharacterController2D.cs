@@ -8,6 +8,7 @@ public class CharacterController2D : MonoBehaviour
     [SerializeField] private float movementSmoothing = 0.05f;
     [SerializeField] private LayerMask whatIsGround;
     [SerializeField] private Transform groundCheck;
+    public GameObject GameobjectCat;
 
     private Rigidbody2D rb;
     private bool facingRight = true;
@@ -74,6 +75,6 @@ public class CharacterController2D : MonoBehaviour
     private void Flip()
     {
         facingRight = !facingRight;
-        transform.localScale = new Vector3(facingRight ? 1 : -1, 1, 1);
+        GameobjectCat.transform.localScale = new Vector3(facingRight ? 0.3f : -0.3f, 0.3f, 1);
     }
 }
