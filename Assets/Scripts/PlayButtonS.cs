@@ -6,15 +6,14 @@ public class PlayButtonS : MonoBehaviour
 {
     public GameObject menu;
     public GameObject video;
+    public GameObject eyes;
     public StartTimedEvent timerscript;
 
-    void Update()
+    public void Play()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
             video.SetActive(true);
             menu.SetActive(false);
+            eyes.SetActive(false);
             timerscript.StartTimer();
-        } 
     }
 }

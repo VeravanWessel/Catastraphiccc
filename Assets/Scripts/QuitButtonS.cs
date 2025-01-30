@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class QuitButtonS : MonoBehaviour
 {
-    void Update()
+    public void Quit()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            Application.Quit();
-        } 
+         Application.Quit();
     }
 }
