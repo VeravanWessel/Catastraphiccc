@@ -1,15 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PlayButtonS : MonoBehaviour
 {
+    public GameObject menu;
+    public GameObject video;
+    public StartTimedEvent timerscript;
+
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            SceneManager.LoadScene("Mainscene");
+            video.SetActive(true);
+            menu.SetActive(false);
+            timerscript.StartTimer();
         } 
     }
 }
