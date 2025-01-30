@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Box
+  - DialogueDetect
   layers:
   - Default
   - TransparentFX
