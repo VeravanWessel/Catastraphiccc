@@ -43,6 +43,7 @@ public class Enemy : MonoBehaviour
             if (boxY > enemyY) // Alleen doden als de doos van boven komt
             {
                 doodgaan = true;
+                boxCollider.enabled = false;
                 ratdood.SetActive(true);
                
                 DeactiveerObjecten(); // Roep de functie aan om de lijst te deactiveren
