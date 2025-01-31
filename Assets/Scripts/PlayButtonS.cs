@@ -8,12 +8,14 @@ public class PlayButtonS : MonoBehaviour
     public GameObject video;
     public GameObject eyes;
     public StartTimedEvent timerscript;
+    public GameObject audiostop;
 
     public void Play()
     {
             video.SetActive(true);
             menu.SetActive(false);
             eyes.SetActive(false);
+            audiostop.SetActive(false);
             timerscript.StartTimer();
     }
 }
