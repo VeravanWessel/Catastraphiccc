@@ -7,6 +7,7 @@ public class HealthBar : MonoBehaviour
 {
     public GameObject heartPrefab;
     public PlayerHealth playerHealth;
+    
     List<HealthHeart> hearts = new List<HealthHeart>();
 
     private void OnEnable()
