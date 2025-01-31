@@ -1045,7 +1045,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 171c44bae22e3084f9f4a754b744efbc, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1139,6 +1139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 6
   currentHealth: 6
+  healthbarscript: {fileID: 0}
 --- !u!61 &6749576062030148324
 BoxCollider2D:
   m_ObjectHideFlags: 0
